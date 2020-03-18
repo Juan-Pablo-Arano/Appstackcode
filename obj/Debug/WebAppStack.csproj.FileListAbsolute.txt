@@ -1,0 +1,6 @@
+C:\Users\Pablo Sistemas\source\repos\WebAppStack\WebAppStack\bin\WebAppStack.dll.config
+C:\Users\Pablo Sistemas\source\repos\WebAppStack\WebAppStack\bin\WebAppStack.dll
+C:\Users\Pablo Sistemas\source\repos\WebAppStack\WebAppStack\bin\WebAppStack.pdb
+C:\Users\Pablo Sistemas\source\repos\WebAppStack\WebAppStack\obj\Debug\WebAppStack.csprojAssemblyReference.cache
+C:\Users\Pablo Sistemas\source\repos\WebAppStack\WebAppStack\obj\Debug\WebAppStack.dll
+C:\Users\Pablo Sistemas\source\repos\WebAppStack\WebAppStack\obj\Debug\WebAppStack.pdb
