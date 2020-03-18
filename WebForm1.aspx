@@ -19,18 +19,23 @@
         .auto-style4 {
             width: 24px;
         }
+        .auto-style5 {
+            width: 227px;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <table class="auto-style2">
             <tr>
-                <td class="auto-style3">&nbsp;</td>
+                <td class="auto-style3" colspan="3">
+                    <asp:Label ID="Label5" runat="server" Font-Bold="True" Font-Names="Arial" Font-Size="Large" ForeColor="#000066" Text="REGISTRO DE  TELEFONOS"></asp:Label>
+                </td>
                 <td>&nbsp;</td>
                 <td class="auto-style4">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">
+                <td class="auto-style5">
                     <asp:Label ID="Label1" runat="server" Font-Bold="False" Font-Names="Arial" Text="Telefono"></asp:Label>
                 </td>
                 <td>
@@ -40,7 +45,7 @@
                 <td class="auto-style4">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">
+                <td class="auto-style5">
                     <asp:Label ID="Label2" runat="server" Font-Names="Arial" Text="Nombre"></asp:Label>
                 </td>
                 <td>
@@ -49,7 +54,7 @@
                 <td class="auto-style4">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">
+                <td class="auto-style5">
                     <asp:Label ID="Label3" runat="server" Font-Names="Arial" Text="Email"></asp:Label>
                 </td>
                 <td>
@@ -58,7 +63,7 @@
                 <td class="auto-style4">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">
+                <td class="auto-style5">
                     <asp:Label ID="Label4" runat="server" Font-Names="Arial" Text="Fecha de Registro"></asp:Label>
                 </td>
                 <td>
@@ -115,7 +120,7 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td class="auto-style4">&nbsp;</td>
             </tr>
