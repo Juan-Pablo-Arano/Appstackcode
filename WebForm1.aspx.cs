@@ -37,12 +37,13 @@ namespace WebAppStack
                     TextBox2.Text = Registros[1].ToString();
                     TextBox3.Text = Registros[2].ToString();
                     TextBox4.Text = Registros[3].ToString();
-                    Salida.Text = "Registro Consultado";
+                    Salida.Text = "Registro Consultado";                   
                 }
                 else
                 {
                     Salida.Text = "Registro no encontrado";
                 }
+
             }
         }
 
@@ -78,7 +79,7 @@ namespace WebAppStack
                 catch (Exception)
                 {
                     Salida.Text = "Error: Este número ya fue registrado con anterioridad";
-                }
+                }                
                 Response.Redirect("WebForm1.aspx");
             }
         }

@@ -95,7 +95,7 @@
             </tr>
             <tr>
                 <td colspan="3">
-                    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="Phone" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" Width="572px">
+                    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="Phone" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" Width="598px">
                         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
                         <Columns>
                             <asp:BoundField DataField="Phone" HeaderText="Phone" ReadOnly="True" SortExpression="Phone" />
@@ -114,7 +114,7 @@
                         <SortedDescendingCellStyle BackColor="#FFFDF8" />
                         <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
                     </asp:GridView>
-                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:stackcode_agendaConnectionString %>" SelectCommand="SELECT * FROM [Agenda] ORDER BY [CreateDate]"></asp:SqlDataSource>
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:stackcodeBDConnectionString %>" SelectCommand="SELECT * FROM [Agenda]"></asp:SqlDataSource>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
